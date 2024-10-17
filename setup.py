@@ -40,10 +40,10 @@ setup(
     long_description=long_description,
     author="Shaun Sephton & Piotr Malinski, added TOC plugin by ali ghazalizadeh",
     author_email="alighazalizadeh13@gmail.com",
-    url="https://github.com/django-ckeditor/django-ckeditor",
+    url="https://github.com/alighazali13/django-ckeditor-toc.git",
     project_urls={
         "Documentation": "https://django-ckeditor.readthedocs.io/en/latest/",
-        "Source": "https://github.com/django-ckeditor/django-ckeditor",
+        "Source": "https://github.com/alighazali13/django-ckeditor-toc.git",
     },
     packages=find_packages(exclude=["*.demo"]),
     zip_safe=False,
