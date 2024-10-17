@@ -989,11 +989,6 @@ ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/default.js
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template1.gif
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template2.gif
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template3.gif
-ckeditor/static/ckeditor/ckeditor/plugins/toc/plugin.js
-ckeditor/static/ckeditor/ckeditor/plugins/toc/release-notes.txt
-ckeditor/static/ckeditor/ckeditor/plugins/toc/icons/toc.png
-ckeditor/static/ckeditor/ckeditor/plugins/toc/lang/de.js
-ckeditor/static/ckeditor/ckeditor/plugins/toc/lang/en.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/plugin.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/dialogs/uicolor.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png

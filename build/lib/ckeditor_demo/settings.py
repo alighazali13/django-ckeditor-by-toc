@@ -184,7 +184,7 @@ CKEDITOR_CONFIGS = {
         "skin": "moono-lisa",
         "toolbar": CUSTOM_TOOLBAR,
         "toolbarGroups": None,
-        "extraPlugins": ",".join(["image2", "codesnippet", "toc"]),
+        "extraPlugins": ",".join(["image2", "codesnippet"]),
         "removePlugins": ",".join(["image"]),
         "codeSnippet_theme": "xcode",
     },

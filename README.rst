@@ -4,7 +4,7 @@ Deprecation notice
 I do not recommend using this package anymore since the open source version of CKEditor 4 has unfixed security issues. More on this in `my blog post <https://406.ch/writing/django-ckeditor/>`__. Alternatives are listed `here on Django Packages <https://djangopackages.org/grids/g/wysiwyg/>`__. I personally am using `django-prose-editor <https://406.ch/writing/django-prose-editor-prose-editing-component-for-the-django-admin/>`__. Thanks!
 
 
-Django CKEditor BY TOC
+Django CKEditor
 ===============
 
 .. image:: https://img.shields.io/pypi/v/django-ckeditor.svg
@@ -137,9 +137,6 @@ Optional - customizing CKEditor editor
                'toolbar': 'full',
                'height': 300,
                'width': 300,
-               'extraPlugins': ','.join([
-                'toc',
-            ]),
            },
        }
 
@@ -344,7 +341,7 @@ django-ckeditor includes the following ckeditor plugins, but not all are enabled
     embedsemantic, filetools, find, flash, forms, iframe, iframedialog, image, image2, language,
     lineutils, link, liststyle, magicline, mathjax, menubutton, notification, notificationaggregator,
     pagebreak, pastefromword, placeholder, preview, scayt, sharedspace, showblocks, smiley,
-    sourcedialog, specialchar, stylesheetparser, table, tableresize, tabletools, templates, toc, uicolor,
+    sourcedialog, specialchar, stylesheetparser, table, tableresize, tabletools, templates, uicolor,
     uploadimage, uploadwidget, widget, wsc, xml
 
 The image/file upload feature is done by the `uploadimage` plugin.
@@ -467,7 +464,6 @@ Example ckeditor configuration
                 'autoembed',
                 'embedsemantic',
                 'autogrow',
-                'toc',
                 # 'devtools',
                 'widget',
                 'lineutils',
