@@ -35,11 +35,11 @@ def get_source_files():
 
 setup(
     name="django-ckeditor-by-toc",
-    version=version,
-    description="Django admin CKEditor integration.",
+    version='1.1',
+    description="Django admin CKEditor integration and added TOC .",
     long_description=long_description,
-    author="Shaun Sephton & Piotr Malinski",
-    author_email="riklaunim@gmail.com",
+    author="Shaun Sephton & Piotr Malinski , added TOC BY Ali Ghazalizadeh",
+    author_email="alighazalizadeh13@gmail.com",
     url="https://github.com/django-ckeditor/django-ckeditor",
     project_urls={
         "Documentation": "https://django-ckeditor.readthedocs.io/en/latest/",

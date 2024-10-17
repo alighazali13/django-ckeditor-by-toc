@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: django-ckeditor-by-toc
-Version: 6.7.1
-Summary: Django admin CKEditor integration.
+Version: 1.0
+Summary: Django admin CKEditor integration and added TOC .
 Home-page: https://github.com/django-ckeditor/django-ckeditor
-Author: Shaun Sephton & Piotr Malinski
-Author-email: riklaunim@gmail.com
+Author: Shaun Sephton & Piotr Malinski , added TOC BY Ali Ghazalizadeh
+Author-email: alighazalizadeh13@gmail.com
 Project-URL: Documentation, https://django-ckeditor.readthedocs.io/en/latest/
 Project-URL: Source, https://github.com/django-ckeditor/django-ckeditor
 Classifier: Programming Language :: Python

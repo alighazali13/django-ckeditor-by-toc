@@ -4,7 +4,7 @@ Deprecation notice
 I do not recommend using this package anymore since the open source version of CKEditor 4 has unfixed security issues. More on this in `my blog post <https://406.ch/writing/django-ckeditor/>`__. Alternatives are listed `here on Django Packages <https://djangopackages.org/grids/g/wysiwyg/>`__. I personally am using `django-prose-editor <https://406.ch/writing/django-prose-editor-prose-editing-component-for-the-django-admin/>`__. Thanks!
 
 
-Django CKEditor
+Django CKEditor BY TOC
 ===============
 
 .. image:: https://img.shields.io/pypi/v/django-ckeditor.svg
@@ -137,6 +137,9 @@ Optional - customizing CKEditor editor
                'toolbar': 'full',
                'height': 300,
                'width': 300,
+               'extraPlugins': ','.join([
+                'toc',
+            ]),
            },
        }
 
@@ -464,6 +467,7 @@ Example ckeditor configuration
                 'autoembed',
                 'embedsemantic',
                 'autogrow',
+                'toc',
                 # 'devtools',
                 'widget',
                 'lineutils',

@@ -4,8 +4,9 @@ AUTHORS
 
 Created By
 ----------
-#. `shaunsephton <http://github.com/shaunsephton>`__
+#. `Ali ghazalizadeh added Table Of Content (TOC) <https://github.com/alighazali13>`__
 
+#. `shaunsephton <http://github.com/shaunsephton>`__
 
 Contributors
 ------------
