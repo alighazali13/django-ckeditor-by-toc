@@ -4,7 +4,7 @@ Deprecation notice
 I do not recommend using this package anymore since the open source version of CKEditor 4 has unfixed security issues. More on this in `my blog post <https://406.ch/writing/django-ckeditor/>`__. Alternatives are listed `here on Django Packages <https://djangopackages.org/grids/g/wysiwyg/>`__. I personally am using `django-prose-editor <https://406.ch/writing/django-prose-editor-prose-editing-component-for-the-django-admin/>`__. Thanks!
 
 
-Django CKEditor TOC
+Django CKEditor BY TOC
 ===============
 
 .. image:: https://img.shields.io/pypi/v/django-ckeditor.svg
@@ -130,7 +130,7 @@ Optional - customizing CKEditor editor
 
        widget = CKEditorWidget(config_name='awesome_ckeditor')
 
-   By specifying a set named ``default`` you'll be applying its settings to all RichTextField and CKEditorWidget objects for which ``config_name`` has not been explicitly defined and add toc plugin here ::
+   By specifying a set named ``default`` you'll be applying its settings to all RichTextField and CKEditorWidget objects for which ``config_name`` has not been explicitly defined ::
 
        CKEDITOR_CONFIGS = {
            'default': {
@@ -344,7 +344,7 @@ django-ckeditor includes the following ckeditor plugins, but not all are enabled
     embedsemantic, filetools, find, flash, forms, iframe, iframedialog, image, image2, language,
     lineutils, link, liststyle, magicline, mathjax, menubutton, notification, notificationaggregator,
     pagebreak, pastefromword, placeholder, preview, scayt, sharedspace, showblocks, smiley,
-    sourcedialog, specialchar, stylesheetparser, table, tableresize, tabletools, templates, uicolor,
+    sourcedialog, specialchar, stylesheetparser, table, tableresize, tabletools, templates, toc, uicolor,
     uploadimage, uploadwidget, widget, wsc, xml
 
 The image/file upload feature is done by the `uploadimage` plugin.

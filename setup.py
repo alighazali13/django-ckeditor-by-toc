@@ -34,16 +34,16 @@ def get_source_files():
 
 
 setup(
-    name="django-ckeditor-toc",
-    version=version,
+    name="django-ckeditor-by-toc",
+    version='0.0.1',
     description="Django CKEditor integration with Table of Contents (TOC) support.",
     long_description=long_description,
     author="Shaun Sephton & Piotr Malinski, added TOC plugin by ali ghazalizadeh",
     author_email="alighazalizadeh13@gmail.com",
-    url="https://github.com/alighazali13/django-ckeditor-toc.git",
+    url="https://github.com/django-ckeditor/django-ckeditor",
     project_urls={
         "Documentation": "https://django-ckeditor.readthedocs.io/en/latest/",
-        "Source": "https://github.com/alighazali13/django-ckeditor-toc.git",
+        "Source": "https://github.com/django-ckeditor/django-ckeditor",
     },
     packages=find_packages(exclude=["*.demo"]),
     zip_safe=False,
