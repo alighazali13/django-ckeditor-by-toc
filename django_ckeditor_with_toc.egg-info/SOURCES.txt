@@ -989,6 +989,11 @@ ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/default.js
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template1.gif
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template2.gif
 ckeditor/static/ckeditor/ckeditor/plugins/templates/templates/images/template3.gif
+ckeditor/static/ckeditor/ckeditor/plugins/toc/plugin.js
+ckeditor/static/ckeditor/ckeditor/plugins/toc/release-notes.txt
+ckeditor/static/ckeditor/ckeditor/plugins/toc/icons/toc.png
+ckeditor/static/ckeditor/ckeditor/plugins/toc/lang/de.js
+ckeditor/static/ckeditor/ckeditor/plugins/toc/lang/en.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/plugin.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/dialogs/uicolor.js
 ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png
@@ -1304,9 +1309,9 @@ ckeditor_uploader/management/commands/__init__.py
 ckeditor_uploader/management/commands/generateckeditorthumbnails.py
 ckeditor_uploader/static/ckeditor/ckeditor_uploader/admin_base.css
 ckeditor_uploader/templates/ckeditor/browse.html
-django_ckeditor_by_toc.egg-info/PKG-INFO
-django_ckeditor_by_toc.egg-info/SOURCES.txt
-django_ckeditor_by_toc.egg-info/dependency_links.txt
-django_ckeditor_by_toc.egg-info/not-zip-safe
-django_ckeditor_by_toc.egg-info/requires.txt
-django_ckeditor_by_toc.egg-info/top_level.txt
+django_ckeditor_with_toc.egg-info/PKG-INFO
+django_ckeditor_with_toc.egg-info/SOURCES.txt
+django_ckeditor_with_toc.egg-info/dependency_links.txt
+django_ckeditor_with_toc.egg-info/not-zip-safe
+django_ckeditor_with_toc.egg-info/requires.txt
+django_ckeditor_with_toc.egg-info/top_level.txt

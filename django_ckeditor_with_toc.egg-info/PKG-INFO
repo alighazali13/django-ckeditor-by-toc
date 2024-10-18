@@ -1,3 +1,32 @@
+Metadata-Version: 2.1
+Name: django-ckeditor-with-toc
+Version: 1.0.1
+Summary: Django admin CKEditor integration and added TOC .
+Home-page: https://github.com/alighazali13/django-ckeditor-with-toc
+Author: Shaun Sephton & Piotr Malinski , added TOC BY Ali Ghazalizadeh
+Author-email: alighazalizadeh13@gmail.com
+Project-URL: Documentation, https://django-ckeditor.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/alighazali13/django-ckeditor-with-toc
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django>=3.2
+Requires-Dist: django-js-asset>=2.0
+
 Deprecation notice
 ==================
 
@@ -86,3 +115,43 @@ Example ckeditor configuration
             ]),
         }
     }
+
+AUTHORS
+=======
+
+
+Created By
+----------
+#. `shaunsephton <http://github.com/shaunsephton>`__
+
+
+Contributors
+------------
+#. `riklaunim <https://github.com/riklaunim>`__
+#. `3point2 <https://github.com/3point2>`__
+#. `buchuki <http://github.com/buchuki>`__
+#. `chr15m <http://github.com/chr15m>`__
+#. `hedleyroos <https://github.com/hedleyroos>`__
+#. `jeffh <https://github.com/jeffh>`__
+#. `lihan <https://github.com/lihan>`__
+#. `loop0 <http://github.com/loop0>`__
+#. `mwcz <https://github.com/mwcz>`__
+#. `tomwys <https://github.com/tomwys>`__
+#. `snbuback <https://github.com/snbuback>`__
+#. added toc `alighazali <https://github.com/alighazali13/>`__
+#. And others `<https://github.com/django-ckeditor/django-ckeditor/graphs/contributors>`__
+
+Changelog
+=========
+
+Unreleased
+----------
+
+1.0.1
+-----
+
+#. changed README
+1.0.0
+-----
+
+#. added TOC to django-ckeditor

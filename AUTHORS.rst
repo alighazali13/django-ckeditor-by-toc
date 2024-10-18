@@ -4,9 +4,8 @@ AUTHORS
 
 Created By
 ----------
-#. `Ali ghazalizadeh added Table Of Content (TOC) <https://github.com/alighazali13>`__
-
 #. `shaunsephton <http://github.com/shaunsephton>`__
+
 
 Contributors
 ------------
@@ -21,4 +20,5 @@ Contributors
 #. `mwcz <https://github.com/mwcz>`__
 #. `tomwys <https://github.com/tomwys>`__
 #. `snbuback <https://github.com/snbuback>`__
+#. added toc `alighazali <https://github.com/alighazali13/>`__
 #. And others `<https://github.com/django-ckeditor/django-ckeditor/graphs/contributors>`__
